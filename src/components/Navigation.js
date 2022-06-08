@@ -8,7 +8,7 @@ export function Navigation() {
                 fluid={true}
                 rounded={true}
             >
-                <Navbar.Brand href="https://flowbite.com/">
+                <Navbar.Brand href="https://powermindclub.com/">
                     <img
                         src="https://flowbite.com/docs/images/logo.svg"
                         className="mr-3 h-6 sm:h-9"
@@ -19,29 +19,26 @@ export function Navigation() {
     </span>
                 </Navbar.Brand>
                 <div className="flex md:order-2">
-                    <Button color="tahiti-light">
+                    <Button color="green">
                         Say hello
                     </Button>
                     <Navbar.Toggle/>
                 </div>
                 <Navbar.Collapse>
                     <Navbar.Link
-                        href="/navbars"
+                        href="/"
                         active={true}
                     >
                         Home
                     </Navbar.Link>
-                    <Navbar.Link href="/navbars">
-                        About
+                    <Navbar.Link href="/about-us">
+                        Über uns
                     </Navbar.Link>
-                    <Navbar.Link href="/navbars">
-                        Services
+                    <Navbar.Link href="/why">
+                        Warum PMC
                     </Navbar.Link>
-                    <Navbar.Link href="/navbars">
-                        Pricing
-                    </Navbar.Link>
-                    <Navbar.Link href="/navbars">
-                        Contact
+                    <Navbar.Link href="/blog">
+                        Blog
                     </Navbar.Link>
                 </Navbar.Collapse>
             </Navbar>

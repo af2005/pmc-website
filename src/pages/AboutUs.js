@@ -1,4 +1,5 @@
-export function Team() {
+
+export function AboutUs() {
     return(
         <>
 

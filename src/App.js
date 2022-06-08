@@ -1,22 +1,35 @@
-import logo from './img/logo.svg';
 import './App.css';
-import {Team} from './pages/Team.js'
+import {Home} from './pages/Home'
+import {AboutUs} from './pages/AboutUs.js'
 import {Footer} from "./components/Footer";
 import {Navigation} from "./components/Navigation";
+import {Blog} from "./pages/Blog"
+import {Why} from "./pages/Why"
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route
+} from "react-router-dom";
+import React, {Suspense} from 'react'
+
 
 function App() {
     return (
-        <div className="App">
-            <Navigation/>
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo"/>
-                <h1 className="text-3xl font-bold underline">
-                    Hello world!
-                </h1>
-            </header>
-            <Team/>
-            <Footer/>
-        </div>
+        <Router>
+            <div className="App">
+                <Navigation/>
+                <Suspense fallback={<div>Waiting to load</div>}>
+                    <Routes>
+                        <Route element={<Home />} path='/' />
+                        <Route element={<AboutUs />} path='/about-us' />
+                        <Route element={<Why />} path='/why' />
+                        <Route element={<Blog />} path='/blog' />
+                    </Routes>
+                </Suspense>
+                <Footer/>
+            </div>
+        </Router>
+
     );
 }
 
