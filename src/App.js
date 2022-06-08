@@ -1,6 +1,6 @@
-import './App.css';
+import './css/App.scss';
 import {Home} from './pages/Home'
-import {AboutUs} from './pages/AboutUs.js'
+import {Team} from './pages/about-us/Team'
 import {Footer} from "./components/Footer";
 import {Navigation} from "./components/Navigation";
 import {Blog} from "./pages/Blog"
@@ -11,6 +11,8 @@ import {
     Route
 } from "react-router-dom";
 import React, {Suspense} from 'react'
+import {OurApp} from "./pages/OurApp";
+import {ContactUs} from "./pages/Contact";
 
 
 function App() {
@@ -21,9 +23,11 @@ function App() {
                 <Suspense fallback={<div>Waiting to load</div>}>
                     <Routes>
                         <Route element={<Home />} path='/' />
-                        <Route element={<AboutUs />} path='/about-us' />
+                        <Route element={<Team />} path='/about-us' />
                         <Route element={<Why />} path='/why' />
+                        <Route element={<OurApp />} path='/app' />
                         <Route element={<Blog />} path='/blog' />
+                        <Route element={<ContactUs />} path='/contact' />
                     </Routes>
                 </Suspense>
                 <Footer/>

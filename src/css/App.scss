@@ -1,0 +1,71 @@
+@import "colors";
+
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: $ming;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.btn-apple{
+  background-color: $apple;
+  color: $onyx;
+}
+.btn-apple:hover{
+  background-color: $apple;
+  color: $onyx;
+  outline: 5px $cultured solid;
+}
+.btn-ming{
+  background-color: $ming;
+  color: $onyx;
+}
+.btn-ming:hover{
+  background-color: $ming;
+  color: $onyx;
+  outline: 5px $cultured solid;
+}
+.text-apple{
+  color: $apple
+}
+.text-ming{
+  color:$ming;
+}
+.text-onyx{
+  color: $onyx;
+}
+.bg-ming{
+  background-color: $ming;
+}
+.bg-apple{
+  background-color: $apple;
+}
+.border-ming{
+  border-color: $ming
+}
+.pmc-h1{
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.pmc-h2{
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
