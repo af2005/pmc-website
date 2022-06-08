@@ -56,6 +56,9 @@
 .bg-apple{
   background-color: $apple;
 }
+.bg-cultured{
+  background-color: $cultured;
+}
 .border-ming{
   border-color: $ming
 }
@@ -67,5 +70,8 @@
 .pmc-h2{
   font-weight: 600;
   letter-spacing: 0.01em;
+}
+.pmc-gradient{
+  background-image: linear-gradient(to right top, #3c6e71, #428882, #4fa18e, #67bb95, #88d498);
 }
 

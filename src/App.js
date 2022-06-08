@@ -13,21 +13,29 @@ import {
 import React, {Suspense} from 'react'
 import {OurApp} from "./pages/OurApp";
 import {ContactUs} from "./pages/Contact";
+import {Spinner} from "flowbite-react";
 
+function Fallback() {
+    return (
+        <div className="text-center">
+            <Spinner aria-label="Waiting"/>
+        </div>
+)
+}
 
 function App() {
     return (
         <Router>
             <div className="App">
                 <Navigation/>
-                <Suspense fallback={<div>Waiting to load</div>}>
+                <Suspense fallback={<Fallback/>}>
                     <Routes>
-                        <Route element={<Home />} path='/' />
-                        <Route element={<Team />} path='/about-us' />
-                        <Route element={<Why />} path='/why' />
-                        <Route element={<OurApp />} path='/app' />
-                        <Route element={<Blog />} path='/blog' />
-                        <Route element={<ContactUs />} path='/contact' />
+                        <Route element={<Home/>} path='/'/>
+                        <Route element={<Team/>} path='/about-us'/>
+                        <Route element={<Why/>} path='/why'/>
+                        <Route element={<OurApp/>} path='/app'/>
+                        <Route element={<Blog/>} path='/blog'/>
+                        <Route element={<ContactUs/>} path='/contact'/>
                     </Routes>
                 </Suspense>
                 <Footer/>

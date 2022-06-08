@@ -3,6 +3,7 @@ import kim from '../../img/team/kim.webp'
 import chenchen from '../../img/team/chenchen.webp'
 import teamcollab from "../../img/icons/undraw/undraw_team_collaboration_re_ow29.svg";
 
+import {Button, Spinner} from "flowbite-react"
 
 export function Team() {
     return (<>

@@ -1,7 +1,10 @@
-import logo from '../img/logo/min/logo-text-white.svg'
+import checklist from '../img/icons/undraw/undraw_booking_re_gw4j.svg'
 import {useState} from 'react'
 import {Tab} from '@headlessui/react'
 import rocket from '../img/icons/doodle/misc/rocket.svg'
+import {LeftImage} from "../components/ImageContent";
+import {Col, Row} from "../components/Layout";
+import {Card} from "flowbite-react";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -83,38 +86,27 @@ export default function Example() {
 function CallToAction() {
     return (
 
-        <div className="py-16 bg-apple">
+        <div className="py-16 pmc-gradient">
             <div className="container m-auto px-6 space-y-8 text-onyx md:px-12 lg:px-20">
                 <div className="justify-center text-center gap-6 md:text-left md:flex lg:items-center  lg:gap-16">
                     <div className="order-last mb-6 space-y-6 md:mb-0 md:w-6/12 lg:w-6/12">
-                        <h1 className="text-4xl text-onyx font-bold md:text-4xl">Was kannst Du an deiner Beziehung verbessern?</h1>
-                        <p className="text-lg">Führende PMC Coaches haben ein System entwickelt... Erhalte in 3 Minuten Dein Ergebnis.</p>
+                        <h1 className="text-4xl text-white font-bold md:text-4xl">Was kannst Du an deiner Beziehung verbessern?</h1>
+                        <p className="text-lg text-white">Führende PMC Coaches haben ein System entwickelt... Erhalte in 3 Minuten Dein Ergebnis.</p>
                         <div className="flex flex-row-reverse flex-wrap justify-center gap-4 md:gap-6 md:justify-end">
                             <button type="button" title="Start buying"
                                     className="w-full py-3 px-6 text-center rounded-xl transition bg-ming shadow-xl hover:bg-gray-600 active:bg-gray-700 focus:bg-gray-600 sm:w-max">
                         <span className="block text-white font-semibold">
-                           Let's go
+                           Mache den Test
                         </span>
                             </button>
 
                         </div>
                     </div>
-                    <div className="grid grid-cols-5 grid-rows-4 gap-4 md:w-5/12 lg:w-6/12">
-                        <div className="col-span-2 row-span-4">
-                            <img src="images/products/kushagra.webp" className="rounded-full" width="640" height="960"
-                                 alt="shoes" loading="lazy"/>
+                    <div className="md:5/12 lg:w-5/12 pt-10 lg:py-0">
+                    <img src={checklist} width="832" height="608" className="w-80 m-auto"
+                         loading="lazy" alt="mobility_illustration"/>
                         </div>
-                        <div className="col-span-2 row-span-2">
-                            <img src="images/products/iman.webp"
-                                 className="w-full h-full object-cover object-top rounded-xl" width="640" height="640"
-                                 alt="shoe" loading="lazy"/>
-                        </div>
-                        <div className="col-span-3 row-span-3">
-                            <img src="images/products/daniel.webp"
-                                 className="w-full h-full object-cover object-top rounded-xl" width="640" height="427"
-                                 alt="shoes" loading="lazy"/>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -122,6 +114,38 @@ function CallToAction() {
     )
 }
 
+function ThreeFeatures(){
+    return(
+        <>
+        <h2>Deine Matches</h2>
+          <Row>
+            <Col>
+              <Card>
+                <Card.Header className='text-center'>
+                  <div className='text-end'>
+
+                  </div>
+                  <div className='avatar avatar-xxl bg-orca'>s</div>
+
+                </Card.Header>
+                <Card.Body>
+                  <h4>Lisa</h4>
+                  Matching Points: 87
+                </Card.Body>
+
+              </Card>
+            </Col>
+            <Col>
+              <Card>
+                <div className='avatar'>s</div>
+                <h4>Lisa</h4>
+              </Card>
+            </Col>
+
+          </Row>
+        </>
+    )
+}
 
 export function Home() {
     return (<>
@@ -129,14 +153,10 @@ export function Home() {
 
         <CallToAction/>
 
-        <div className="py-16 bg-purple-50 text-left">
-            <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-                <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-                    <div className="md:5/12 lg:w-5/12">
-                        <img src={rocket} alt="image" loading="lazy" width="" height=""/>
-                    </div>
-                    <div className="md:7/12 lg:w-6/12">
-                        <h2 className="text-2xl text-ming font-bold md:text-4xl">We are the best</h2>
+        <Example/>
+
+        <LeftImage image={rocket}>
+             <h2 className="text-2xl text-ming font-bold md:text-4xl">We are the best</h2>
                         <p className="mt-6 text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Eum omnis
                             voluptatem accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae
@@ -146,10 +166,8 @@ export function Home() {
                             quaerat iure
                             expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam
                             mollitia.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </LeftImage>
+
 
     </>)
 }
