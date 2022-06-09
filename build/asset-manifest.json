@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21cac365.css",
+    "main.js": "/static/js/main.020b3cfa.js",
+    "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
+    "static/media/date.jpeg": "/static/media/date.034426e2d62e32b10db5.jpeg",
+    "static/media/alex.webp": "/static/media/alex.fa8b775831863e74fc0b.webp",
+    "static/media/undraw_team_collaboration_re_ow29.svg": "/static/media/undraw_team_collaboration_re_ow29.237af94a285e16123f0777f5cd79b394.svg",
+    "static/media/kim.webp": "/static/media/kim.d36c059f4141924c2167.webp",
+    "static/media/chenchen.webp": "/static/media/chenchen.0cfa1ffd79a67c51ed85.webp",
+    "static/media/logo-text-black.svg": "/static/media/logo-text-black.9d68b857a4f44a6cec222c62fc25a222.svg",
+    "static/media/logo-black.svg": "/static/media/logo-black.263959f4b082ca51f51ee83b05c36fcf.svg",
+    "static/media/undraw_spread_love_re_v3cl.svg": "/static/media/undraw_spread_love_re_v3cl.b1b38afd08c38593eeb71ef3bfb99c6b.svg",
+    "static/media/undraw_booking_re_gw4j.svg": "/static/media/undraw_booking_re_gw4j.42544be3e49843cf0fc4f93631eb95f8.svg",
+    "static/media/undraw_date_picker_re_r0p8.svg": "/static/media/undraw_date_picker_re_r0p8.1707f7424aaed6da865698fe6c76fe2e.svg",
+    "static/media/undraw_appreciation_re_8nbx.svg": "/static/media/undraw_appreciation_re_8nbx.920d0fd3ec182ef3279dc97fcc21dd49.svg",
+    "static/media/undraw_my_app_re_gxtj.svg": "/static/media/undraw_my_app_re_gxtj.8e8a9eb6496044a8afa1c1497129536d.svg",
+    "static/media/rocket.svg": "/static/media/rocket.0da84aa2cd14479f4cd4b06b1e99dfbf.svg",
+    "static/media/balloon-2.svg": "/static/media/balloon-2.3d119b83c6c09093c2fb0b4b37b3da14.svg",
+    "static/media/happy-emoji.svg": "/static/media/happy-emoji.75c10aa00c91f3dfc6c2d9164185647c.svg",
+    "static/media/message.svg": "/static/media/message.5fa12cd9d2ecc3b3e87808fab444ed09.svg",
+    "static/media/heart.svg": "/static/media/heart.1e85c3dc36e013a3ffe6dbe32c17d900.svg",
+    "static/media/balloon.svg": "/static/media/balloon.f01c89e4650eead7c0a631624fa0d91e.svg",
+    "index.html": "/index.html",
+    "main.21cac365.css.map": "/static/css/main.21cac365.css.map",
+    "main.020b3cfa.js.map": "/static/js/main.020b3cfa.js.map",
+    "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21cac365.css",
+    "static/js/main.020b3cfa.js"
+  ]
+}

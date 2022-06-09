@@ -25,7 +25,6 @@ function Fallback() {
 
 function App() {
     return (
-        <Router>
             <div className="App">
                 <Navigation/>
                 <Suspense fallback={<Fallback/>}>
@@ -40,7 +39,6 @@ function App() {
                 </Suspense>
                 <Footer/>
             </div>
-        </Router>
 
     );
 }
