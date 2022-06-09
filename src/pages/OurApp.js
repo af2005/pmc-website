@@ -5,17 +5,19 @@ import spreadlove from "../img/icons/undraw/undraw_spread_love_re_v3cl.svg";
 export function OurApp() {
     return (<>
 
-        <div className="bg-gradient-to-b from-sky-50 to-sky-200 ">
-            <div className="container m-auto py-20">
+        <div className="pmc-gradient-pink">
+            <div className="container m-auto pt-20 pb-5">
                 <img src={spreadlove} alt="spread love" className="w-64 m-auto"/>
             </div>
-            <div className="container m-auto px-6 py-10 md:px-12 lg:px-20">
+            <div className="container m-auto px-6 py-5 md:px-12 lg:px-20">
                 <div className="m-auto text-center lg:w-8/12 xl:w-7/12">
-                    <h2 className="text-2xl text-sky-900 font-bold md:text-4xl">Werde jetzt Power Mind. Das Abschliessen eines Power Mind Abos gibt Dir/euch Zugang zu ...</h2>
+                    <h2 className="text-2xl text-onyx font-bold md:text-4xl">Werde jetzt Power Mind. </h2>
+                    <p className="py-5">Das Abschliessen
+                        eines Power Mind Abos gibt Dir/euch Zugang zu ...</p>
                 </div>
                 <div
-                    className="mt-12 m-auto items-center justify-center space-y-6 lg:flex lg:space-y-0 lg:space-x-6 xl:w-10/12">
-                    <div className="relative z-10 group mx-auto sm:w-7/12 lg:w-4/12">
+                    className="mt-12 mb-4 m-auto items-center justify-center space-y-6 lg:flex lg:space-y-0 lg:space-x-6 xl:w-10/12">
+                    <div className="relative z-10 group mx-auto sm:w-7/12 lg:w-6/12">
                         <div aria-hidden="true"
                              className="absolute top-0 w-full h-full rounded-2xl bg-white shadow-xl transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
                         <div className="relative p-6 space-y-8">
@@ -30,7 +32,7 @@ export function OurApp() {
                             </div>
                             <img src={ballon} width="512" height="512" className="h-24 m-auto"
                                  alt="tanzanite illustration"/>
-                            <p className="text-center text-gray-600">Für Paare die es nur mal ausprobieren.</p>
+                            <p className="text-center text-gray-600">Für Dich zum Ausprobieren.</p>
                             <button type="submit" title="Submit"
                                     className="block w-full py-3 px-6 text-center rounded-xl transition btn-apple">
                         <span className="font-semibold">
@@ -40,7 +42,7 @@ export function OurApp() {
                         </div>
                     </div>
 
-                    <div className="relative z-10 group mx-auto sm:w-7/12 lg:w-4/12">
+                    <div className="relative z-10 group mx-auto sm:w-7/12 lg:w-6/12">
                         <div aria-hidden="true"
                              className="absolute top-0 w-full h-full rounded-2xl bg-white shadow-xl transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"></div>
                         <div className="relative p-6 space-y-8">
@@ -55,13 +57,14 @@ export function OurApp() {
                             </div>
                             <img src={ballons} width="512" height="512" className="h-24 m-auto"
                                  alt="tanzanite illustration"/>
-                            <p className="text-center text-gray-600">Langzeitige ...</p>
+                            <p className="text-center text-gray-600">Arbeite nachhaltig an Deiner
+                                Beziehung</p>
                             <button type="submit" title="Submit"
-                                            className="block w-full py-3 px-6 text-center rounded-xl transition btn-ming">
+                                    className="block w-full py-3 px-6 text-center rounded-xl transition btn-ming">
                                         <span className="text-white font-semibold">
                                             Starte hier
                                         </span>
-                                    </button>
+                            </button>
                         </div>
                     </div>
 

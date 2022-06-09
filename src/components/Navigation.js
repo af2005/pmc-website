@@ -2,6 +2,7 @@ import {Navbar, Button} from "flowbite-react";
 
 import logo from '../img/logo/min/logo-black.svg'
 import {Link} from "react-router-dom";
+import PMCButton from "./PMCButton";
 
 export function Navigation() {
     return (<>
@@ -21,7 +22,7 @@ export function Navigation() {
             <div className="flex md:order-2">
                 <Link to="contact/">
                     <Button className="btn-apple">
-                        Say hello
+                       Lade die App
                     </Button>
                 </Link>
 

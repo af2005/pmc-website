@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import Button from "./Button";
+import PMCButton from "./PMCButton";
 import appreciate from "../img/icons/undraw/undraw_appreciation_re_8nbx.svg";
 
 export function LeftImage(props) {

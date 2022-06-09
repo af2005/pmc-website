@@ -15,7 +15,7 @@ export function Footer() {
                     </div>
                     <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
                         <div>
-                            <h6 className="text-lg font-medium text-cyan-900">Company</h6>
+                            <h6  className="pmc-h6">Company</h6>
                             <ul className="list-inside mt-4 space-y-4">
                                 <li>
                                     <a href="#" className="hover:text-cyan-600 transition">About</a>
@@ -35,7 +35,7 @@ export function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h6 className="text-lg font-medium text-cyan-900">Products</h6>
+                            <h6  className="pmc-h6">Products</h6>
                             <ul className="list-inside mt-4 space-y-4">
                                 <li>
                                     <a href="#" className="hover:text-cyan-600 transition">About</a>
@@ -55,7 +55,7 @@ export function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h6 className="text-lg font-medium text-cyan-900">Developers</h6>
+                            <h6 className="pmc-h6">Developers</h6>
                             <ul className="list-inside mt-4 space-y-4">
                                 <li>
                                     <a href="#" className="hover:text-cyan-600 transition">About</a>
@@ -75,22 +75,13 @@ export function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h6 className="text-lg font-medium text-cyan-900">Ressources</h6>
+                            <h6 className="pmc-h6">Rechtliches</h6>
                             <ul className="list-inside mt-4 space-y-4">
                                 <li>
-                                    <a href="#" className="hover:text-cyan-600 transition">About</a>
+                                    <a href="#" className="hover:text-cyan-600 transition">Impressum</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="hover:text-cyan-600 transition">Customers</a>
-                                </li>
-                                <li>
-                                    <a href="#" className="hover:text-cyan-600 transition">Enterprise</a>
-                                </li>
-                                <li>
-                                    <a href="#" className="hover:text-cyan-600 transition">Partners</a>
-                                </li>
-                                <li>
-                                    <a href="#" className="hover:text-cyan-600 transition">Jobs</a>
+                                    <a href="#" className="hover:text-cyan-600 transition">Datenschutzerklärung</a>
                                 </li>
                             </ul>
                         </div>

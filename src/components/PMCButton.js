@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export default function Button (props) {
+export default function PMCButton (props) {
   return (
     <button
         className={`
@@ -11,9 +11,10 @@ export default function Button (props) {
         w-fit 
         items-center 
         justify-center 
-        p-0.5 
+        py-1
+        px-3
         text-center 
-        font-medium 
+        font-bold
         focus:z-10 
         rounded-lg 
         border 
@@ -25,7 +26,7 @@ export default function Button (props) {
     </button>
   )
 }
-Button.propTypes = {
+PMCButton.propTypes = {
   color: PropTypes.oneOf(
     ["ming","apple","transparent", "spanish-pink", "rose-taupe"]),
   className: PropTypes.string,
