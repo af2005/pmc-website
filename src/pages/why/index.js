@@ -5,10 +5,13 @@ import phone from "../../img/icons/undraw/undraw_my_app_re_gxtj.svg";
 
 import { LeftImage, RightImage } from "../../components/ImageContent";
 import { Link } from "gatsby";
+import { Helmet } from "react-helmet";
 
 export default function WhyPMC() {
   return (
     <>
+      <Helmet title="Warum"/>
+
       <RightImage image={appreciate} className={"bg-cultured"}>
         <h2 className="text-2xl pmc-h2 text-ming font-bold md:text-5xl">
           Der beste Ort um Deine Beziehung zu verbessern.

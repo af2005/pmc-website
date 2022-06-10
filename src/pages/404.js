@@ -27,6 +27,7 @@ const codeStyles = {
 // markup
 export default function NotFoundPage() {
   return (
+
     <main style={pageStyles}>
       <title>Not found</title>
       <h1 style={headingStyles}>Page not found</h1>

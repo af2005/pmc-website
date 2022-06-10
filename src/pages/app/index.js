@@ -3,10 +3,12 @@ import React from "react";
 import ballon from "../../img/icons/doodle/objects/balloon.svg";
 import ballons from "../../img/icons/doodle/objects/balloon-2.svg";
 import spreadlove from "../../img/icons/undraw/undraw_spread_love_re_v3cl.svg";
+import { Helmet } from "react-helmet";
 
 export default function OurApp() {
   return (
     <>
+      <Helmet title="App"/>
       <div className="pmc-gradient-pink">
         <div className="container m-auto pt-20 pb-5">
           <img src={spreadlove} alt="spread love" className="w-64 m-auto" />

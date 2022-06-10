@@ -2,10 +2,13 @@ import React from "react";
 
 import calendar from "../../img/icons/undraw/undraw_date_picker_re_r0p8.svg";
 import date from "../../img/unsplash/date.jpeg";
+import { Helmet } from "react-helmet";
 
 export default function Blog() {
   return (
     <>
+      <Helmet title="Blog"/>
+
       <div className="py-16 bg-gradient-to-br from-green-50 to-cyan-100">
         <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
           <div className="mb-12 space-y-2 text-center">
@@ -44,7 +47,7 @@ export default function Blog() {
                       Temporibus...
                     </p>
                   </div>
-                  <span href="#" className="block w-max text-cyan-600">
+                  <span className="block w-max text-cyan-600">
                     Read more
                   </span>
                 </div>
@@ -71,7 +74,7 @@ export default function Blog() {
                       Temporibus...
                     </p>
                   </div>
-                  <span href="#" className="block w-max text-cyan-600">
+                  <span  className="block w-max text-cyan-600">
                     Read more
                   </span>
                 </div>
