@@ -42,15 +42,7 @@
   background-color: $spanishpink;
   color: $onyx;
 }
-.text-apple {
-  color: $apple;
-}
-.text-ming {
-  color: $ming;
-}
-.text-onyx {
-  color: $onyx;
-}
+
 .bg-ming {
   background-color: $ming;
 }
@@ -98,4 +90,12 @@
     #a57072,
     #8b575c
   );
+}
+
+.gradient-ming-to-onyx{
+  /* Created with https://www.css-gradient.com */
+  background: #3C6E71;
+  background: -webkit-linear-gradient(top left, #3C6E71, #3C3C3C);
+  background: -moz-linear-gradient(top left, #3C6E71, #3C3C3C);
+  background: linear-gradient(to bottom right, #3C6E71, #3C3C3C);
 }
