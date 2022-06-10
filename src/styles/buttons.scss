@@ -6,9 +6,15 @@
 .btn > span {
   font-weight: bolder;
 }
+
 .btn,
 .btn:hover {
   transition: background-color 0.3s ease;
+  text-decoration: none !important;
+}
+
+.btn > span {
+  text-decoration: none !important;
 }
 
 .btn-ming {

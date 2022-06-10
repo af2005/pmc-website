@@ -23,19 +23,11 @@
 .border-ming {
   border-color: $ming;
 }
-.pmc-h1 {
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-.pmc-h2 {
-  font-weight: 600;
-  letter-spacing: 0.01em;
-}
 
-.pmc-h6 {
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  color: $ming;
-  text-transform: uppercase;
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.no-underline {
+  text-decoration: none !important;
 }
