@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `PMC website`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://test.powermindclub.com`,
   },
   plugins: [
     //   {

@@ -11,8 +11,7 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "serve": "gatsby serve"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.4",
@@ -20,10 +19,8 @@
     "flowbite-react": "^0.0.25",
     "gatsby": "^4.16.0",
     "gatsby-plugin-google-analytics": "^4.16.0",
-    "gatsby-plugin-image": "^2.16.1",
-    "gatsby-plugin-react-helmet": "^5.16.0",
-    "gatsby-plugin-sass": "^5.16.0",
-    "gatsby-plugin-sharp": "^4.16.1",
+    "gatsby-plugin-image": "^2.16.1",    "gatsby-plugin-react-helmet": "^5.16.0",
+    "gatsby-plugin-sass": "^5.16.0",    "gatsby-plugin-sharp": "^4.16.1",
     "gatsby-source-filesystem": "^4.16.0",
     "gatsby-transformer-sharp": "^4.16.0",
     "prop-types": "^15.8.1",
