@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-test-index-js-d578b045010f67b1dc31.js","mappings":"0KACe,SAASA,IACtB,OACE,gCAAE","sources":["webpack://pmc-website/./src/pages/test/index.js"],"sourcesContent":["import React from 'react'\nexport default function Test(){\n  return(\n    <><h2>Not much here</h2></>\n  )\n}"],"names":["Test"],"sourceRoot":""}
