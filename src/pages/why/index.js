@@ -43,17 +43,17 @@ export default function WhyPMC() {
         This is another content block with an image on the left side
       </LeftImage>
 
-      <RightImage image={pair} className="bg-spanishpink">
-        <h2 className="text-2xl text-apple-dark font-bold md:text-4xl">
+      <RightImage image={pair} className="bg-ming">
+        <h2 className="text-2xl text-apple font-bold md:text-4xl">
           Work together
         </h2>
-        <p className="mt-6 text-onyx">
+        <p className="mt-6 text-cultured">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis
           voluptatem accusantium nemo perspiciatis delectus atque autem!
           Voluptatum tenetur beatae unde aperiam, repellat expedita consequatur!
           Officiis id consequatur atque doloremque!
         </p>
-        <p className="mt-4 text-onyx">
+        <p className="mt-4 text-cultured">
           {" "}
           Nobis minus voluptatibus pariatur dignissimos libero quaerat iure
           expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur
