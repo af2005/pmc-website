@@ -3,8 +3,6 @@ import React from "react";
 import calendar from "../../img/icons/undraw/undraw_date_picker_re_r0p8.svg";
 import date from "../../img/unsplash/date.jpeg";
 
-
-
 export default function Blog() {
   return (
     <>
@@ -46,9 +44,9 @@ export default function Blog() {
                       Temporibus...
                     </p>
                   </div>
-                  <a href="#" className="block w-max text-cyan-600">
+                  <span href="#" className="block w-max text-cyan-600">
                     Read more
-                  </a>
+                  </span>
                 </div>
               </div>
             </div>
@@ -73,9 +71,9 @@ export default function Blog() {
                       Temporibus...
                     </p>
                   </div>
-                  <a href="#" className="block w-max text-cyan-600">
+                  <span href="#" className="block w-max text-cyan-600">
                     Read more
-                  </a>
+                  </span>
                 </div>
               </div>
             </div>

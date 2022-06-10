@@ -1,9 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
 
-import PMCButton from "./PMCButton";
-import appreciate from "../img/icons/undraw/undraw_appreciation_re_8nbx.svg";
-
 export function LeftImage(props) {
   return (
     <>

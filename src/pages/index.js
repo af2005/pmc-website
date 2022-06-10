@@ -111,8 +111,7 @@ function Content() {
 export default function Index() {
   return (
     <>
-        <Content />
-
+      <Content />
     </>
   );
 }

@@ -1,6 +1,7 @@
 @import "colors";
 
-.text-apple, .hover-text-apple:hover{
+.text-apple,
+.hover-text-apple:hover {
   color: $apple;
 }
 .text-ming {
@@ -10,6 +11,6 @@
   color: $onyx;
 }
 
-.text-cultured{
+.text-cultured {
   color: $cultured;
 }

@@ -4,7 +4,7 @@ import appreciate from "../../img/icons/undraw/undraw_appreciation_re_8nbx.svg";
 import phone from "../../img/icons/undraw/undraw_my_app_re_gxtj.svg";
 
 import { LeftImage, RightImage } from "../../components/ImageContent";
-
+import { Link } from "gatsby";
 
 export default function WhyPMC() {
   return (
@@ -27,12 +27,12 @@ export default function WhyPMC() {
             aspernatur quam mollitia.
           </p>
         </div>
-        <a
-          href="#"
+        <Link
+          to="why/learn-more"
           className="block w-full py-3 px-6 text-center rounded-full transition btn-apple sm:w-max"
         >
           <span className="block font-semibold text-sm">Lerne mehr</span>
-        </a>
+        </Link>
       </RightImage>
 
       <LeftImage image={phone}>
