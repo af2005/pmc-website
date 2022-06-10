@@ -20,15 +20,6 @@
   color: #61dafb;
 }
 
-.bg-ming {
-  background-color: $ming;
-}
-.bg-apple {
-  background-color: $apple;
-}
-.bg-cultured {
-  background-color: $cultured;
-}
 .border-ming {
   border-color: $ming;
 }
@@ -47,32 +38,4 @@
   letter-spacing: 0.02em;
   color: $ming;
   text-transform: uppercase;
-}
-.pmc-gradient-green {
-  background-image: linear-gradient(
-    to right top,
-    #3c6e71,
-    #428882,
-    #4fa18e,
-    #67bb95,
-    #88d498
-  );
-}
-.pmc-gradient-pink {
-  background-image: linear-gradient(
-    to right bottom,
-    #f7c1bb,
-    #dba5a2,
-    #c08a8a,
-    #a57072,
-    #8b575c
-  );
-}
-
-.gradient-ming-to-onyx {
-  /* Created with https://www.css-gradient.com */
-  background: #3c6e71;
-  background: -webkit-linear-gradient(top left, #3c6e71, #3c3c3c);
-  background: -moz-linear-gradient(top left, #3c6e71, #3c3c3c);
-  background: linear-gradient(to bottom right, #3c6e71, #3c3c3c);
 }

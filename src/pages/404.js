@@ -1,52 +1,24 @@
 import * as React from "react";
+import notfound from "../img/icons/undraw/undraw_not_found_-60-pq.svg";
 import { Link } from "gatsby";
-
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-};
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-};
-
-const paragraphStyles = {
-  marginBottom: 48,
-};
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-};
-
+import PMCButton from "../components/PMCButton";
 // markup
 export default function NotFoundPage() {
   return (
-    <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
+    <>
+      <div className="container m-auto   text-center">
+        <img className="w-80" src={notfound} alt="Not found" />
+
+        <div className="py-20">
+          <h2 className="pmc-h2 py-10">
+            Wir können diese Seite momentan nicht finden.
+          </h2>
+
+          <Link to="/">
+            <PMCButton className="btn btn-apple">Zur Startseite</PMCButton>
+          </Link>
+        </div>
+      </div>
+    </>
   );
 }

@@ -1,20 +1,18 @@
 import React from "react";
 
 import { LeftImage } from "../components/ImageContent";
-import rocket from "../img/icons/doodle/misc/rocket.svg";
+import art from "../img/icons/undraw/undraw_conceptual_idea_xw7k.svg";
 import checklist from "../img/icons/undraw/undraw_booking_re_gw4j.svg";
-import happy from "../img/icons/doodle/emojis/happy-emoji.svg";
-import heart from "../img/icons/doodle/interface/heart.svg";
-import message from "../img/icons/doodle/interface/message.svg";
-import { Col, Container, Row } from "../components/Flex";
 import { Link } from "gatsby";
 import { Helmet } from "react-helmet";
+import { FaArrowRight } from "react-icons/all";
+import PMCButton from "../components/PMCButton";
 
 function CallToAction() {
   return (
     <>
       <Helmet title="Home" />
-      <div className="py-16 lg:py-40 pmc-gradient-green">
+      <div className="py-16 lg:py-40 gradient-ming-to-apple">
         <div className="container m-auto px-6 space-y-8 text-onyx md:px-12 lg:px-20">
           <div className="justify-center text-center gap-6 md:text-left md:flex lg:items-center  lg:gap-16">
             <div className="order-last mb-6 space-y-6 md:mb-0 md:w-6/12 lg:w-6/12">
@@ -56,34 +54,81 @@ function CallToAction() {
   );
 }
 
-function ThreeFeatures() {
+function Features() {
   return (
     <>
-      <div className={"py-16 lg:py-40 container m-auto text-center"}>
-        <Row className={""}>
-          <Col className="w-10/12 sm:w-7/12 md:w-4/12">
-            <Container className="flex flex-col">
-              <img src={happy} alt="smile" className="h-20 mb-5 " />
-              <h6 className="pmc-h6">Lerne</h6>
-              <p>Wie Deine Beziehung noch besser werden kann</p>
-            </Container>
-          </Col>
-          <Col className="w-10/12 sm:w-7/12 md:w-4/12">
-            <Container className="flex flex-col">
-              <img src={heart} alt="heart" className="h-20 mb-5 " />
-              <h6 className="pmc-h6">Tausche Dich aus</h6>
-              <p>Es gibt viele Menschen mit denselben Gefühlen wie du</p>
-            </Container>
-          </Col>
-          <Col className="w-10/12 sm:w-7/12 md:w-4/12">
-            <Container className="flex flex-col">
-              <img src={message} alt="talk" className="h-20 mb-5 " />
-              <h6 className="pmc-h6">Buche ein Power Mind</h6>
-              <p> Finde einen zertifizierten Coach der genau für Dich passt.</p>
-            </Container>
-          </Col>
-        </Row>
-      </div>
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-col text-center w-full mb-20">
+            <h2 className="text-xs text-apple-dark tracking-widest font-medium title-font mb-1">
+              ROOF PARTY POLAROID
+            </h2>
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+              Master Cleanse Reliac Heirloom
+            </h1>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
+              gentrify, subway tile poke farm-to-table. Franzen you probably
+              haven't heard of them man bun deep jianbing selfies heirloom prism
+              food truck ugh squid celiac humblebrag.
+            </p>
+          </div>
+          <div className="flex flex-wrap">
+            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+                Shooting Stars
+              </h2>
+              <p className="leading-relaxed text-base mb-4">
+                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
+                hexagon disrupt edison bulbche.
+              </p>
+              <a className="text-green-500 inline-flex items-center">
+                Learn More
+                <FaArrowRight className="ml-2" />
+              </a>
+            </div>
+            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+                The Catalyzer
+              </h2>
+              <p className="leading-relaxed text-base mb-4">
+                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
+                hexagon disrupt edison bulbche.
+              </p>
+              <a className="text-green-500 inline-flex items-center">
+                Learn More
+                <FaArrowRight className="ml-2" />
+              </a>
+            </div>
+            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+                Neptune
+              </h2>
+              <p className="leading-relaxed text-base mb-4">
+                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
+                hexagon disrupt edison bulbche.
+              </p>
+              <a className="text-green-500 inline-flex items-center">
+                Learn More
+                <FaArrowRight className="ml-2" />
+              </a>
+            </div>
+            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+                Melanchole
+              </h2>
+              <p className="leading-relaxed text-base mb-4">
+                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
+                hexagon disrupt edison bulbche.
+              </p>
+              <a className="text-green-500 inline-flex items-center">
+                Learn More
+                <FaArrowRight className="ml-2" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
@@ -92,19 +137,19 @@ function Content() {
   return (
     <>
       <CallToAction />
-      <ThreeFeatures />
+      <Features />
 
-      <LeftImage image={rocket}>
-        <h2 className="text-2xl text-ming font-bold md:text-4xl">
+      <LeftImage image={art} className="bg-rosetaupe">
+        <h2 className="text-2xl text-spanishpink font-bold md:text-4xl">
           We are the best
         </h2>
-        <p className="mt-6 text-gray-600">
+        <p className="mt-6 text-cultured">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis
           voluptatem accusantium nemo perspiciatis delectus atque autem!
           Voluptatum tenetur beatae unde aperiam, repellat expedita consequatur!
           Officiis id consequatur atque doloremque!
         </p>
-        <p className="mt-4 text-gray-600">
+        <p className="mt-4 text-cultured">
           {" "}
           Nobis minus voluptatibus pariatur dignissimos libero quaerat iure
           expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur
