@@ -10,7 +10,7 @@ import { Helmet } from "react-helmet";
 export default function WhyPMC() {
   return (
     <>
-      <Helmet title="Warum"/>
+      <Helmet title="Warum" />
 
       <RightImage image={appreciate} className={"bg-cultured"}>
         <h2 className="text-2xl pmc-h2 text-ming font-bold md:text-5xl">

@@ -1,7 +1,7 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
+import React from "react";
+import Helmet from "react-helmet";
+import PropTypes from "prop-types";
+import { StaticQuery, graphql } from "gatsby";
 
 function Meta({ meta, title }) {
   return (
@@ -16,14 +16,13 @@ function Meta({ meta, title }) {
           }
         }
       `}
-      render={data => (
+      render={(data) => (
         <Helmet
           meta={[
             {
               name: `description`,
               content: data.site.siteMetadata.description,
             },
-
           ].concat(meta)}
           title={title}
           titleTemplate={`%s | ${data.site.siteMetadata.title}`}
@@ -32,7 +31,7 @@ function Meta({ meta, title }) {
         </Helmet>
       )}
     />
-  )
+  );
 }
 
 Meta.propTypes = {
@@ -43,11 +42,11 @@ Meta.propTypes = {
     })
   ),
   title: PropTypes.string,
-}
+};
 
 Meta.defaultProps = {
   title: `Home`,
   meta: [],
-}
+};
 
-export default Meta
+export default Meta;

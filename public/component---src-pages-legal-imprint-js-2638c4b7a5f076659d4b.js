@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpmc_website=self.webpackChunkpmc_website||[]).push([[986],{3849:function(e,t,n){n.r(t),n.d(t,{default:function(){return c}});var u=n(7294),r=n(5414);function c(){return u.createElement(u.Fragment,null,u.createElement(r.q,{title:"Impressum"}),u.createElement("h2",null,"Not much here"))}}}]);
+//# sourceMappingURL=component---src-pages-legal-imprint-js-2638c4b7a5f076659d4b.js.map

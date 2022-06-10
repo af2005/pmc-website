@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet";
 export default function Blog() {
   return (
     <>
-      <Helmet title="Blog"/>
+      <Helmet title="Blog" />
 
       <div className="py-16 bg-gradient-to-br from-green-50 to-cyan-100">
         <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
@@ -47,9 +47,7 @@ export default function Blog() {
                       Temporibus...
                     </p>
                   </div>
-                  <span className="block w-max text-cyan-600">
-                    Read more
-                  </span>
+                  <span className="block w-max text-cyan-600">Read more</span>
                 </div>
               </div>
             </div>
@@ -74,9 +72,7 @@ export default function Blog() {
                       Temporibus...
                     </p>
                   </div>
-                  <span  className="block w-max text-cyan-600">
-                    Read more
-                  </span>
+                  <span className="block w-max text-cyan-600">Read more</span>
                 </div>
               </div>
             </div>

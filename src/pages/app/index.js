@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet";
 export default function OurApp() {
   return (
     <>
-      <Helmet title="App"/>
+      <Helmet title="App" />
       <div className="pmc-gradient-pink">
         <div className="container m-auto pt-20 pb-5">
           <img src={spreadlove} alt="spread love" className="w-64 m-auto" />

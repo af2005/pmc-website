@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpmc_website=self.webpackChunkpmc_website||[]).push([[617],{6536:function(e,t,n){n.r(t),n.d(t,{default:function(){return r}});var u=n(7294),c=n(5414);function r(){return u.createElement(u.Fragment,null,u.createElement(c.q,{title:"Test"}),u.createElement("h2",null,"Not much here"))}}}]);
+//# sourceMappingURL=component---src-pages-test-index-js-429958d45a63237378fc.js.map

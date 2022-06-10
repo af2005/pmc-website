@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpmc_website=self.webpackChunkpmc_website||[]).push([[745],{7386:function(e,t,n){n.r(t),n.d(t,{default:function(){return u}});var c=n(7294),r=n(5414);function u(){return c.createElement(c.Fragment,null,c.createElement(r.q,{title:"Data Protection"}),c.createElement("h2",null,"Not much here"))}}}]);
+//# sourceMappingURL=component---src-pages-legal-data-protection-js-2d72a58e59df13c97648.js.map

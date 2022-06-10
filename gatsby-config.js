@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Power Mind Club`,
     author: {
-      name: "Power Mind Club"
+      name: "Power Mind Club",
     },
     description: "Empower your relationship",
     siteUrl: `https://www.powermindclub.com`,
@@ -25,7 +25,7 @@ module.exports = {
     //   }
     // },
     "gatsby-plugin-image",
-    'gatsby-plugin-offline',
+    "gatsby-plugin-offline",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
     "gatsby-plugin-layout",
