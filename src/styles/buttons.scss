@@ -1,0 +1,56 @@
+@import "colors";
+
+.btn {
+  text-align: center;
+}
+.btn > span {
+  font-weight: bolder;
+}
+.btn,
+.btn:hover {
+  transition: background-color 0.3s ease;
+}
+
+.btn-ming {
+  background-color: $ming;
+  color: $cultured;
+  font-weight: bold;
+}
+.btn-ming:hover {
+  background-color: $ming-aux;
+}
+.btn-ming:active {
+  background-color: $onyx;
+}
+
+.btn-apple {
+  background-color: $apple;
+  color: $onyx;
+  font-weight: bolder;
+}
+.btn-apple:hover {
+  background-color: $apple-aux;
+}
+
+.btn-with-love > span {
+  padding-right: 0;
+}
+
+.btn-with-love:after {
+  content: "♥";
+  color: transparent;
+  display: inline-block;
+  position: relative;
+  right: -15px;
+  transition: all 0.2s ease, color 0.05s ease-in;
+  transition-delay: 0s;
+}
+
+.btn-with-love:hover:after {
+  margin: -5px 10px;
+  right: 0;
+  color: #e74c3c;
+  transition: all 0.2s ease, color 0.2s ease;
+
+  transition-delay: 0s, 0.1s;
+}

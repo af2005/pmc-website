@@ -1,5 +1,6 @@
 import logo from "../img/logo/min/logo-text-black.svg";
 import React from "react";
+import { Link } from "gatsby";
 
 export function Footer() {
   return (
@@ -28,20 +29,20 @@ export function Footer() {
               <h6 className="pmc-h6">Rechtliches</h6>
               <ul className="list-inside mt-4 space-y-4">
                 <li>
-                  <a
-                    href="/imprint/"
+                  <Link
+                    to="legal/imprint/"
                     className="hover:text-cyan-600 transition"
                   >
                     Impressum
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/data-protection/"
+                  <Link
+                    to="legal/data-protection/"
                     className="hover:text-cyan-600 transition"
                   >
                     Datenschutzerklärung
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -7,6 +7,7 @@ import happy from "../img/icons/doodle/emojis/happy-emoji.svg";
 import heart from "../img/icons/doodle/interface/heart.svg";
 import message from "../img/icons/doodle/interface/message.svg";
 import { Col, Container, Row } from "../components/Flex";
+import { Link } from "gatsby";
 
 function CallToAction() {
   return (
@@ -22,15 +23,17 @@ function CallToAction() {
               Minuten Dein Ergebnis.
             </p>
             <div className="flex flex-row-reverse flex-wrap justify-center gap-4 md:gap-6 md:justify-end">
-              <button
-                type="button"
-                title="Start buying"
-                className="w-full py-3 px-6 text-center rounded-xl transition bg-ming shadow-xl hover:bg-gray-600 active:bg-gray-700 focus:bg-gray-600 sm:w-max"
-              >
-                <span className="block text-white font-semibold">
-                  Mache den Test
-                </span>
-              </button>
+              <Link>
+                <button
+                  type="button"
+                  title="Es lohnt sich!"
+                  className="btn w-full py-3 px-6 text-center rounded-xl transition bg-ming shadow-xl hover:bg-gray-600 active:bg-gray-700 focus:bg-gray-600 sm:w-max"
+                >
+                  <span className="block text-white font-semibold">
+                    Mache den Test
+                  </span>
+                </button>
+              </Link>
             </div>
           </div>
           <div className="md:5/12 lg:w-5/12 pt-10 lg:py-0">

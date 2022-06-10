@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Navbar, Button } from "flowbite-react";
+import { Navbar } from "flowbite-react";
 import logo from "../img/logo/min/logo-black.svg";
 import { Link } from "gatsby";
 
@@ -30,7 +30,16 @@ export function Navigation() {
         </Navbar.Brand>
         <div className="flex md:order-2">
           <Link to="contact/">
-            <Button className="btn-apple">Lade die App</Button>
+            <button
+              className="btn
+            group flex h-min w-fit items-center justify-center p-0.5
+            focus:z-10 rounded-lg
+            btn-apple btn-with-love"
+            >
+              <span className="flex items-center text-sm px-4 py-2 rounded-md">
+                Lade die App
+              </span>
+            </button>
           </Link>
 
           <Navbar.Toggle />
