@@ -1,10 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
+import PropTypes from "prop-types";
 
-export default function PMCButton (props) {
+export default function PMCButton(props) {
   return (
     <button
-        className={`
+      className={`
         group 
         flex 
         h-min 
@@ -20,17 +20,19 @@ export default function PMCButton (props) {
         border 
         border-transparent 
         btn-${props.color} ${props.className}`}
-      >
-        {props.children}
-
+    >
+      {props.children}
     </button>
-  )
+  );
 }
 PMCButton.propTypes = {
-  color: PropTypes.oneOf(
-    ["ming","apple","transparent", "spanish-pink", "rose-taupe"]),
+  color: PropTypes.oneOf([
+    "ming",
+    "apple",
+    "transparent",
+    "spanish-pink",
+    "rose-taupe",
+  ]),
   className: PropTypes.string,
-  children: PropTypes.node
-}
-
-
+  children: PropTypes.node,
+};

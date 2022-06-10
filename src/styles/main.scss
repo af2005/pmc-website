@@ -1,12 +1,9 @@
 @import "colors";
 
-
 .App-logo {
   height: 30vmin;
   pointer-events: none;
 }
-
-
 
 .App-header {
   background-color: $ming;
@@ -23,69 +20,82 @@
   color: #61dafb;
 }
 
-.btn-apple{
+.btn-apple {
   background-color: $apple;
   color: $onyx;
 }
-.btn-apple:hover{
+.btn-apple:hover {
   background-color: $apple;
   color: $onyx;
   outline: 5px $cultured solid;
 }
-.btn-ming{
+.btn-ming {
   background-color: $ming;
   color: $onyx;
 }
-.btn-ming:hover{
+.btn-ming:hover {
   background-color: $ming;
   color: $onyx;
   outline: 5px $cultured solid;
 }
-.btn-spanishpink{
+.btn-spanishpink {
   background-color: $spanishpink;
   color: $onyx;
 }
-.text-apple{
-  color: $apple
+.text-apple {
+  color: $apple;
 }
-.text-ming{
-  color:$ming;
+.text-ming {
+  color: $ming;
 }
-.text-onyx{
+.text-onyx {
   color: $onyx;
 }
-.bg-ming{
+.bg-ming {
   background-color: $ming;
 }
-.bg-apple{
+.bg-apple {
   background-color: $apple;
 }
-.bg-cultured{
+.bg-cultured {
   background-color: $cultured;
 }
-.border-ming{
-  border-color: $ming
+.border-ming {
+  border-color: $ming;
 }
-.pmc-h1{
+.pmc-h1 {
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
-.pmc-h2{
+.pmc-h2 {
   font-weight: 600;
   letter-spacing: 0.01em;
 }
 
-.pmc-h6{
+.pmc-h6 {
   font-weight: 600;
   letter-spacing: 0.02em;
   color: $ming;
   text-transform: uppercase;
 }
-.pmc-gradient-green{
-  background-image: linear-gradient(to right top, #3c6e71, #428882, #4fa18e, #67bb95, #88d498);
+.pmc-gradient-green {
+  background-image: linear-gradient(
+    to right top,
+    #3c6e71,
+    #428882,
+    #4fa18e,
+    #67bb95,
+    #88d498
+  );
 }
-.pmc-gradient-pink{
-  background-image: linear-gradient(to right bottom, #f7c1bb, #dba5a2, #c08a8a, #a57072, #8b575c);
+.pmc-gradient-pink {
+  background-image: linear-gradient(
+    to right bottom,
+    #f7c1bb,
+    #dba5a2,
+    #c08a8a,
+    #a57072,
+    #8b575c
+  );
 }
-
