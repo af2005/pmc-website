@@ -36,3 +36,27 @@ PMCButton.propTypes = {
   className: PropTypes.string,
   children: PropTypes.node,
 };
+
+export function AnimatedArrowButton(props) {
+  return (
+    <>
+      <button className="animated-arrow-button">
+        <span className="circle" aria-hidden="true">
+          <span className="icon arrow"></span>
+        </span>
+        <span className="button-text">{props.children}</span>
+      </button>
+    </>
+  );
+}
+PMCButton.propTypes = {
+  color: PropTypes.oneOf([
+    "ming",
+    "apple",
+    "transparent",
+    "spanish-pink",
+    "rose-taupe",
+  ]),
+  className: PropTypes.string,
+  children: PropTypes.node,
+};

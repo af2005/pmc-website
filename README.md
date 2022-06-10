@@ -1,12 +1,3 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
-
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
@@ -47,8 +38,26 @@
 
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## 🚀 Quick start (Gatsby Cloud)
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+# Deployment
+Just push to develop branch and see at 
+[https://whale-app-ym98k.ondigitalocean.app]
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+# Resources
+
+## Blocks
+- [https://flowrift.com]
+- [https://tailblocks.cc]
+
+## Photos
+- [https://unsplash.com]
+- [https://undraw.co/search]
+
+## Gatsby / Programming
+- [https://github.com/gatsbyjs/gatsby/tree/master/starters/blog] blog + seo
+- [https://www.gatsbyjs.com/plugins/gatsby-plugin-typography/]
+- 
+## designs
+- [https://dribbble.com/shots/7057842-Tab-bar-menu-navigation] insanely nice menu (for app?)
+- [https://mycolor.space/?hex=%2388D498&sub=1] color generator
+- [https://react-icons.github.io/react-icons/icons?name=bs] react icons

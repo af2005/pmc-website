@@ -7,6 +7,7 @@ import { LeftImage, RightImage } from "../../components/ImageContent";
 import { Link } from "gatsby";
 import { Helmet } from "react-helmet";
 import pair from "../../img/icons/undraw/undraw_pair_programming_njlp.svg";
+import { AnimatedArrowButton } from "../../components/PMCButton";
 
 export default function WhyPMC() {
   return (
@@ -31,11 +32,8 @@ export default function WhyPMC() {
             aspernatur quam mollitia.
           </p>
         </div>
-        <Link
-          to="why/learn-more"
-          className="block w-full py-3 px-6 text-center rounded-full transition btn-apple sm:w-max"
-        >
-          <span className="block font-semibold text-sm">Lerne mehr</span>
+        <Link to="why/learn-more" className="block w-full ">
+          <AnimatedArrowButton>Lerne mehr</AnimatedArrowButton>
         </Link>
       </RightImage>
 
