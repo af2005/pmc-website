@@ -1,6 +1,5 @@
 node_modules/
 .cache/
-public
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/react,macos,windows,linux,jetbrains+all
