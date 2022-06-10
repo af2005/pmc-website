@@ -11,6 +11,7 @@ function Meta({ meta, title }) {
           site {
             siteMetadata {
               title
+              description
             }
           }
         }
@@ -20,7 +21,7 @@ function Meta({ meta, title }) {
           meta={[
             {
               name: `description`,
-              content: data,
+              content: data.site.siteMetadata.description,
             },
 
           ].concat(meta)}
