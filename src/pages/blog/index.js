@@ -1,12 +1,11 @@
 import React from "react";
 
-import { Navigation } from "../../components/Navigation";
-import { Footer } from "../../components/Footer";
-
 import calendar from "../../img/icons/undraw/undraw_date_picker_re_r0p8.svg";
 import date from "../../img/unsplash/date.jpeg";
 
-function Content() {
+
+
+export default function Blog() {
   return (
     <>
       <div className="py-16 bg-gradient-to-br from-green-50 to-cyan-100">
@@ -82,19 +81,6 @@ function Content() {
             </div>
           </div>
         </div>
-      </div>
-    </>
-  );
-}
-
-export default function Team() {
-  return (
-    <>
-      <div className="App">
-        <Navigation />
-        <Content />
-
-        <Footer />
       </div>
     </>
   );

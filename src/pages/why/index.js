@@ -2,11 +2,11 @@ import React from "react";
 
 import appreciate from "../../img/icons/undraw/undraw_appreciation_re_8nbx.svg";
 import phone from "../../img/icons/undraw/undraw_my_app_re_gxtj.svg";
-import { Navigation } from "../../components/Navigation";
-import { Footer } from "../../components/Footer";
+
 import { LeftImage, RightImage } from "../../components/ImageContent";
 
-function Content() {
+
+export default function WhyPMC() {
   return (
     <>
       <RightImage image={appreciate} className={"bg-cultured"}>
@@ -38,19 +38,6 @@ function Content() {
       <LeftImage image={phone}>
         This is another content block with an image on the left side
       </LeftImage>
-    </>
-  );
-}
-
-export default function Team() {
-  return (
-    <>
-      <div className="App">
-        <Navigation />
-        <Content />
-
-        <Footer />
-      </div>
     </>
   );
 }

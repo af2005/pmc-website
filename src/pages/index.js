@@ -1,13 +1,12 @@
 import React from "react";
-import { Navigation } from "../components/Navigation";
-import { Footer } from "../components/Footer";
+
 import { LeftImage } from "../components/ImageContent";
 import rocket from "../img/icons/doodle/misc/rocket.svg";
 import checklist from "../img/icons/undraw/undraw_booking_re_gw4j.svg";
 import happy from "../img/icons/doodle/emojis/happy-emoji.svg";
 import heart from "../img/icons/doodle/interface/heart.svg";
 import message from "../img/icons/doodle/interface/message.svg";
-import { Col, Container, Row } from "../components/Layout";
+import { Col, Container, Row } from "../components/Flex";
 
 function CallToAction() {
   return (
@@ -112,12 +111,8 @@ function Content() {
 export default function Index() {
   return (
     <>
-      <div className="App">
-        <Navigation />
         <Content />
 
-        <Footer />
-      </div>
     </>
   );
 }

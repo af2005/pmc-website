@@ -1,13 +1,10 @@
 import React from "react";
 
-import { Navigation } from "../../components/Navigation";
-import { Footer } from "../../components/Footer";
-
 import ballon from "../../img/icons/doodle/objects/balloon.svg";
 import ballons from "../../img/icons/doodle/objects/balloon-2.svg";
 import spreadlove from "../../img/icons/undraw/undraw_spread_love_re_v3cl.svg";
 
-function Content() {
+export default function OurApp() {
   return (
     <>
       <div className="pmc-gradient-pink">
@@ -107,19 +104,6 @@ function Content() {
             </div>
           </div>
         </div>
-      </div>
-    </>
-  );
-}
-
-export default function Team() {
-  return (
-    <>
-      <div className="App">
-        <Navigation />
-        <Content />
-
-        <Footer />
       </div>
     </>
   );

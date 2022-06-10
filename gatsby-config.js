@@ -1,7 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `PMC website`,
+    title: `Power Mind Club`,
     siteUrl: `https://test.powermindclub.com`,
+    menuLinks: [
+      {
+        name: "Home",
+        link: "/",
+      },
+      {
+        name: "Über uns",
+        link: "/about-us",
+      },
+    ],
   },
   plugins: [
     //   {
@@ -13,6 +23,7 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-layout",
     "gatsby-transformer-sharp",
     {
       resolve: `gatsby-plugin-sass`,
