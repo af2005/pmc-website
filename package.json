@@ -20,6 +20,7 @@
     "flowbite-react": "^0.0.25",
     "gatsby": "^4.16.0",
     "gatsby-plugin-google-analytics": "^4.16.0",
+    "gatsby-plugin-google-gtag": "^4.16.0",
     "gatsby-plugin-image": "^2.16.1",
     "gatsby-plugin-layout": "^3.16.0",
     "gatsby-plugin-manifest": "^4.16.0",
