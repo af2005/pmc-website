@@ -1,4 +1,3 @@
-import logo from "../img/logo/min/logo-text-black.svg";
 import React from "react";
 import { Link } from "gatsby";
 import { FaHeart } from "react-icons/all";
@@ -11,10 +10,10 @@ function Newsletter() {
           <div className="flex flex-col items-center rounded-lg p-4 sm:p-8">
             <div className="mb-4 sm:mb-8">
               <h2 className="pmc-h2 text-onyx text-xl sm:text-2xl lg:text-3xl font-bold text-center">
-                Get the latest updates
+                Bleibe informiert
               </h2>
               <p className="text-onyx text-center">
-                Sign up for our newsletter
+                Abboniere unseren Newsletter
               </p>
             </div>
 

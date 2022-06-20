@@ -5,10 +5,12 @@ import art from "../img/icons/undraw/undraw_conceptual_idea_xw7k.svg";
 import checklist from "../img/icons/undraw/undraw_booking_re_gw4j.svg";
 import { Link } from "gatsby";
 import { Helmet } from "react-helmet";
-import { FaArrowRight } from "react-icons/all";
 
-import colorsplash from "../img/unsplash/rainbow.webp";
-import PMCButton from "../components/PMCButton";
+import health from "../img/icons/undraw/undraw_workout_gcgu.svg"
+import party from "../img/icons/undraw/undraw_party_re_nmwj.svg"
+import grandma from "../img/icons/undraw/undraw_grandma_re_rnv1.svg"
+
+
 
 function CallToAction() {
   return (
@@ -62,71 +64,49 @@ function Features() {
       <section className="text-onyx body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h2 className="text-xs text-ming tracking-widest font-medium title-font mb-1">
-              ROOF PARTY POLAROID
+            <h2 className="pmc-topline text-xs text-ming  mb-1">
+              Das sieht auch die Wissenschaft so
             </h2>
             <h1 className="sm:text-3xl text-2xl title-font mb-4  pmc-h2">
-              A very nice headling indeed
+              Es gibt nichts Wichtigeres als die Liebe.
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base ">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify, subway tile poke farm-to-table. Franzen you probably
-              haven't heard of them man bun deep jianbing selfies heirloom prism
-              food truck ugh squid celiac humblebrag.
+              Wir glauben, dass es in unserer Verantwortung liegt,
+              dafür zu sorgen,
+              dass alle Menschen Zugang zu Beziehungscoaching haben.
+              Das ist unsere App, und daran halten wir fest.
             </p>
           </div>
           <div className="flex flex-wrap">
-            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-              <h2 className="pmc-h6 text-onyx font-medium title-font mb-2">
-                Shooting Stars
-              </h2>
-              <p className="leading-relaxed text-base mb-4">
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-                hexagon disrupt edison bulbche.
+            <div className="xl:w-1/3 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <p className="">
+                <img alt="Health" className="h-48 m-auto pb-3" src={health}/>
               </p>
-              <a className="text-ming inline-flex items-center">
-                Learn More
-                <FaArrowRight className="ml-2" />
-              </a>
+              <p className="leading-relaxed text-base mb-4">
+                Gesunde Beziehungen sind für die allgemeine Gesundheit
+                genauso wichtig wie Ernährung und Sport
+              </p>
+
             </div>
-            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-              <h2 className="pmc-h6 text-onyx font-medium title-font mb-2">
-                The Catalyzer
-              </h2>
-              <p className="leading-relaxed text-base mb-4">
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-                hexagon disrupt edison bulbche.
+            <div className="xl:w-1/3 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <p className="">
+                <img alt="Party"
+                 className="h-48 m-auto pb-3" src={party}/>
               </p>
-              <a className="text-ming inline-flex items-center">
-                Learn More
-                <FaArrowRight className="ml-2" />
-              </a>
+              <p className="leading-relaxed text-base mb-4">
+                Menschen in gesunden Ehen leben im Durchschnitt 10 Jahre länger.
+              </p>
+
             </div>
-            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-              <h2 className="pmc-h6 text-onyx font-medium title-font mb-2">
-                Neptune
-              </h2>
-              <p className="leading-relaxed text-base mb-4">
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-                hexagon disrupt edison bulbche.
+            <div className="xl:w-1/3 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <p className="">
+                <img alt="Intimicy"
+                 className="h-48 m-auto pb-3" src={grandma}/>
               </p>
-              <a className="text-ming inline-flex items-center">
-                Learn More
-                <FaArrowRight className="ml-2" />
-              </a>
-            </div>
-            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-              <h2 className="pmc-h6 text-onyx font-medium title-font mb-2">
-                Melanchole
-              </h2>
               <p className="leading-relaxed text-base mb-4">
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-                hexagon disrupt edison bulbche.
+                Der wichtigste Indikator für Glück ist die Aufrechterhaltung intimer Beziehungen.
               </p>
-              <a className="text-ming inline-flex items-center">
-                Learn More
-                <FaArrowRight className="ml-2" />
-              </a>
+
             </div>
           </div>
         </div>
@@ -143,19 +123,19 @@ function Content() {
 
       <LeftImage image={art} className="bg-rosetaupe">
         <h2 className="text-2xl text-spanishpink font-bold md:text-4xl">
-          We are the best
+          Power Mind Club, Dein Personal Trainer für Liebe und Beziehung.
         </h2>
         <p className="mt-6 text-cultured">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis
-          voluptatem accusantium nemo perspiciatis delectus atque autem!
-          Voluptatum tenetur beatae unde aperiam, repellat expedita consequatur!
-          Officiis id consequatur atque doloremque!
+
+          Power Mind Club ist die App für Beziehungscoaching und Wohlbefinden. Wir unterstützen unsere Nutzer:innen gesündere und glücklichere Beziehungen zu führen. Wir ermöglichen unseren Nutzer:innen an sich selbst und der Beziehung zu arbeiten. In einer Beziehung geht es um ein zufriedenes ich,
+
+
+
         </p>
         <p className="mt-4 text-cultured">
           {" "}
-          Nobis minus voluptatibus pariatur dignissimos libero quaerat iure
-          expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur
-          quam mollitia.
+          Unsere Vision: Menschen lernen besser zu lieben. Erfüllende, gesündere und glückliche Beziehungen für alle.
+
         </p>
       </LeftImage>
     </>

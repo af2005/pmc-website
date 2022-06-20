@@ -88,7 +88,6 @@ button.animated-arrow-button {
   background: transparent;
   padding: 0;
   &.animated-arrow-button {
-    width: 12rem;
     height: auto;
     .circle {
       @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
@@ -97,7 +96,6 @@ button.animated-arrow-button {
       margin: 0;
       width: 3rem;
       height: 3rem;
-      background: $apple;
       border-radius: 1.625rem;
       .icon {
         @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));

@@ -4,6 +4,7 @@ import alex from "../../img/team/alex.webp";
 import kim from "../../img/team/kim.webp";
 import chenchen from "../../img/team/chenchen.webp";
 import teamcollab from "../../img/icons/undraw/undraw_team_collaboration_re_ow29.svg";
+import goal from "../../img/icons/undraw/undraw_goals_re_lu76.svg";
 import { BsInstagram, BsLinkedin, FaArrowRight } from "react-icons/all";
 import { Helmet } from "react-helmet";
 
@@ -171,14 +172,38 @@ export default function Team() {
               Die Power Minds
             </h1>
             <p className="text-gray-600 lg:w-8/12 lg:mx-auto">
-              We are a strong and diverse team with expertise in strategy
-              consulting, business development, counseling, coding, and digital
-              solution.
+              Ins Leben gerufen wurde Power Mind Club im Juli 2022 in Hamburg
+              von unseren Gründer*innen
+              <span className="font-bold"> Alexander Franke</span>,
+              <span className="font-bold"> Chenchen Cao</span> und
+              <span className="font-bold"> Kim Kasch</span>.
+              Die Mission von Power Mind Club ist es,
+              Millenials und Gen Z eine Plattform zu bieten,
+              um Menschen zu befähigen,
+              achtsame Gewohnheiten zu entwickeln für gesündere
+              und glücklichere Beziehungen.
+
+
             </p>
+            <p className="text-gray-600 lg:w-8/12 lg:mx-auto mt-3">
+              Angepasst auf Deine individuellen Bedürfnisse & nie allein.
+                     </p>
+
           </div>
           <Management />
         </div>
       </div>
+      <div className="py-20 md:pb-20">
+        <div className="container m-auto px-7 md:px-20 lg:px-50">
+
+          <img alt="our goal" src={goal} className="w-64 m-auto pb-5"/>
+          <h2 className="mb-4 text-center text-2xl text-onyx font-bold md:text-4xl pmc-h2">
+            Unser Ziel
+          </h2>
+          Eine Mental Health Plattform zu erschaffen, die sich an dich und deinen Fortschritt anpasst - mit echten Psycholog*innen und einer Community, die uns motiviert am Ball zu bleiben.
+        </div>
+      </div>
+
 
       <div className="py-20 md:pb-20 gradient-ming-to-onyx">
         <div className="container m-auto px-7 md:px-20 lg:px-50">
