@@ -7,8 +7,8 @@ import { Link } from "gatsby";
 import { Helmet } from "react-helmet";
 
 import health from "../img/icons/undraw/undraw_workout_gcgu.svg"
-import party from "../img/icons/undraw/undraw_party_re_nmwj.svg"
-import grandma from "../img/icons/undraw/undraw_grandma_re_rnv1.svg"
+import party from "../img/icons/undraw/undraw_couple_re_94tl.svg"
+import grandma from "../img/icons/undraw/undraw_together_re_a8x4.svg"
 
 
 
@@ -24,7 +24,7 @@ function CallToAction() {
                 Was kannst Du an Deiner Beziehung verbessern?
               </h1>
               <p className="text-lg text-white">
-                Führende PMC Coaches haben ein System entwickelt... Erhalte in 3
+                Führende PMC Coaches haben ein System entwickelt um eure Beziehung zu verstehen. Erhalte in 3
                 Minuten Dein Ergebnis.
               </p>
               <div className="flex flex-row-reverse flex-wrap justify-center gap-4 md:gap-6 md:justify-end">
@@ -35,7 +35,7 @@ function CallToAction() {
                     className="btn w-full py-3 px-6 text-center rounded-xl transition bg-ming shadow-xl hover:bg-gray-600 active:bg-gray-700 focus:bg-gray-600 sm:w-max"
                   >
                     <span className="block text-white font-semibold">
-                      Mache den Test
+                      Coming soon
                     </span>
                   </button>
                 </Link>
@@ -78,7 +78,7 @@ function Features() {
             </p>
           </div>
           <div className="flex flex-wrap">
-            <div className="xl:w-1/3 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+            <div className="xl:w-1/3 md:w-full px-8 py-6 border-0 border-opacity-60">
               <p className="">
                 <img alt="Health" className="h-48 m-auto pb-3" src={health}/>
               </p>
@@ -121,23 +121,59 @@ function Content() {
       <CallToAction />
       <Features />
 
-      <LeftImage image={art} className="bg-rosetaupe">
-        <h2 className="text-2xl text-spanishpink font-bold md:text-4xl">
+      <LeftImage image={art} className="bg-apple">
+
+        Bild von App mit Mockup
+        <h2 className="text-2xl text-ming font-bold md:text-4xl">
           Power Mind Club, Dein Personal Trainer für Liebe und Beziehung.
         </h2>
-        <p className="mt-6 text-cultured">
+        <p className="mt-6 text-onyx">
 
           Power Mind Club ist die App für Beziehungscoaching und Wohlbefinden. Wir unterstützen unsere Nutzer:innen gesündere und glücklichere Beziehungen zu führen. Wir ermöglichen unseren Nutzer:innen an sich selbst und der Beziehung zu arbeiten. In einer Beziehung geht es um ein zufriedenes ich,
 
 
 
         </p>
-        <p className="mt-4 text-cultured">
+        <p className="mt-4 text-onyx">
           {" "}
           Unsere Vision: Menschen lernen besser zu lieben. Erfüllende, gesündere und glückliche Beziehungen für alle.
 
         </p>
       </LeftImage>
+
+      <div className="py-16 bg-cultured">
+        <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+          <h2 className="mb-12 text-center text-2xl text-onyx font-bold md:text-4xl">
+            Das sagen unsere Kunden
+          </h2>
+          <div className="grid gap-8 md:grid-rows-2 lg:grid-cols-2">
+            <div className="row-span-2 p-6 border border-gray-100 rounded-xl bg-gray-50 text-center sm:p-8">
+              <div className="h-full flex flex-col justify-center space-y-4">
+
+                <p className="text-gray-600 md:text-xl">
+                  <span className="font-serif">"</span>
+                  Dank Power Mind Club ist so vieles leichter und harmonischer! Unsere Beziehung hat eine ganz andere
+                  Qualität erreicht und es kommt kaum noch zu Missverständnissen und Konflikten. Und das, obwohl wir oft
+                  kurz vorm Ende standen. Wir sind unglaublich dankbar für unseren Power Mind Coach..{" "}
+                  <span className="font-serif">"</span>
+                </p>
+                <div>
+                  <h6 className="text-lg font-semibold leading-none">
+                    Kathie & Florian
+                  </h6>
+                  <span className="text-xs text-gray-500">
+                    Anfang 30, Verheiratet
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
     </>
   );
 }

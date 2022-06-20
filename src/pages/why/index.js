@@ -7,6 +7,9 @@ import { LeftImage, RightImage } from "../../components/ImageContent";
 import { Link } from "gatsby";
 import { Helmet } from "react-helmet";
 import pair from "../../img/icons/undraw/undraw_pair_programming_njlp.svg";
+import highfive from "../../img/icons/undraw/undraw_high_five_re_jy71.svg";
+
+import rebecca from "../../img/therapists/rebecca-baur.webp"
 import { AnimatedArrowButton } from "../../components/PMCButton";
 
 export default function WhyPMC() {
@@ -33,7 +36,7 @@ export default function WhyPMC() {
     </RightImage>
 
     <LeftImage image={phone}>
-      <h2 className="text-2xl text-rosetaupe font-bold md:text-4xl">
+      <h2 className="text-2xl text-onyx font-bold md:text-4xl">
         Personalisierter Plan
       </h2>
       <p className="mt-6 text-onyx">
@@ -42,8 +45,8 @@ export default function WhyPMC() {
         Minuten pro Tag mit Wissen, Übungen & Selfcare Routinen.
       </p>
     </LeftImage>
-    <RightImage image={phone} className="bg-spanishpink">
-      <h2 className="text-2xl text-rosetaupe font-bold md:text-4xl">
+    <RightImage image={highfive}>
+      <h2 className="text-2xl text-onyx font-bold md:text-4xl">
         Echte Ergebnisse
       </h2>
       <p className="mt-6 text-onyx">
@@ -51,11 +54,11 @@ export default function WhyPMC() {
       </p>
     </RightImage>
 
-    <LeftImage image={pair} className="bg-ming">
-      <h2 className="text-2xl text-apple font-bold md:text-4xl">
+    <LeftImage image={pair} className="bg-white">
+      <h2 className="text-2xl text-onyx font-bold md:text-4xl">
         Coachings & Workshops
       </h2>
-      <p className="mt-6 text-cultured">
+      <p className="mt-6 text-onyx">
         Bleib nie allein - wir sorgen für einen Safe Space,
         in dem du Dich austauschen darfst.
         Mit Deiner Membership kannst Du an wöchentlichen Workshops und 1:1s teilnehmen.
@@ -63,35 +66,18 @@ export default function WhyPMC() {
 
     </LeftImage>
 
-    <div className="py-16 white">
-      <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-        <h2 className="mb-12 text-center text-2xl text-gray-900 font-bold md:text-4xl">
-          Das sagen unsere Kunden
-        </h2>
-        <div className="grid gap-8 md:grid-rows-2 lg:grid-cols-2">
-          <div className="row-span-2 p-6 border border-gray-100 rounded-xl bg-gray-50 text-center sm:p-8">
-            <div className="h-full flex flex-col justify-center space-y-4">
+    <RightImage image={rebecca} className="bg-ming">
+      <h2 className="text-2xl text-apple font-bold md:text-4xl">
+        Treffe unseren PMC Coach
+      </h2>
+      <p  className="mt-6 text-cultured">
+        Rebecca Baur - Systemischer Coach
 
-              <p className="text-gray-600 md:text-xl">
-                <span className="font-serif">"</span>
-                Dank Power Mind Club ist so vieles leichter und harmonischer! Unsere Beziehung hat eine ganz andere
-                Qualität erreicht und es kommt kaum noch zu Missverständnissen und Konflikten. Und das, obwohl wir oft
-                kurz vorm Ende standen. Wir sind unglaublich dankbar für unseren Power Mind Coach..{" "}
-                <span className="font-serif">"</span>
-              </p>
-              <div>
-                <h6 className="text-lg font-semibold leading-none">
-                  Kathie & Florian
-                </h6>
-                <span className="text-xs text-gray-500">
-                    Anfang 30, Verheiratet
-                  </span>
-              </div>
-            </div>
-          </div>
+        </p><p className="text-cultured">
+        Unser Leben wird vorwiegend von einer Sache bestimmt, nämlich der Art und Weise, wie wir Verbindungen leben. Die Verbindung zu uns selbst, die Verbindung zu anderen Menschen und die Verbindung zur Umwelt bzw. Natur. Dabei ist die Beziehung zu uns selbst die wichtigste, denn sie legt den Grundstein für das Leben im Außen.
+        Expertin in Beziehungskommunikation und Paar- / Einzelcoaching.
+      </p>
 
-        </div>
-      </div>
-    </div>
+    </RightImage>
   </>);
 }

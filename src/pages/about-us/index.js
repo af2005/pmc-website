@@ -4,7 +4,7 @@ import alex from "../../img/team/alex.webp";
 import kim from "../../img/team/kim.webp";
 import chenchen from "../../img/team/chenchen.webp";
 import teamcollab from "../../img/icons/undraw/undraw_team_collaboration_re_ow29.svg";
-import goal from "../../img/icons/undraw/undraw_goals_re_lu76.svg";
+import goal from "../../img/icons/undraw/undraw_spread_love_re_v3cl.svg";
 import { BsInstagram, BsLinkedin, FaArrowRight } from "react-icons/all";
 import { Helmet } from "react-helmet";
 
@@ -20,11 +20,9 @@ function TimeLineStep(props) {
         <h3 className="text-lg font-semibold text-apple dark:text-white">
           {props.title}
         </h3>
-        <p className="mb-4 text-base font-normal text-cultured dark:text-onyx">
-          Bla bla bla Quam hic dolore cumque voluptate rerum beatae et quae,
-          tempore sunt, debitis dolorum officia aliquid explicabo? Excepturi,
-          voluptate?.
-        </p>
+        {/*<p className="mb-4 text-base font-normal text-cultured dark:text-onyx">*/}
+        {/*  Content*/}
+        {/*</p>*/}
         <span className="inline-flex items-center py-2 px-4 text-sm font-medium text-onyx bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-onyx dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
           Learn more <FaArrowRight className="ml-2 w-3 h-3" />
         </span>
@@ -37,9 +35,12 @@ function TimeLine() {
   return (
     <>
       <ol className="relative border-l border-gray-200 dark:border-gray-700">
-        <TimeLineStep date="Februar 2022" title="WHU Three day start up" />
+        <TimeLineStep date="Januar 2022" title="Idee entstanden" />
+        <TimeLineStep date="Februar 2022" title="WHU 3 Day Start-up" />
+        https://www.threedaystartup.de
         <TimeLineStep date="Juni 2022" title="WHU Accelerator" />
         <TimeLineStep date="Juli 2022" title="GmbH Gründung" />
+        <TimeLineStep date="August 2022" title="Launch MVP" />
       </ol>
     </>
   );
@@ -200,7 +201,7 @@ export default function Team() {
           <h2 className="mb-4 text-center text-2xl text-onyx font-bold md:text-4xl pmc-h2">
             Unser Ziel
           </h2>
-          Eine Mental Health Plattform zu erschaffen, die sich an dich und deinen Fortschritt anpasst - mit echten Psycholog*innen und einer Community, die uns motiviert am Ball zu bleiben.
+          Eine Mental Well-being Plattform zu erschaffen, die sich an dich und deinen Fortschritt anpasst - mit echten Psycholog*innen und einer Community, die uns motiviert am Ball zu bleiben.
         </div>
       </div>
 

@@ -107,7 +107,18 @@ export function Footer() {
             </div>
           </div>
 
+          <div className="">
+            <h5 className="font-bold">Hilfe in Notfällen
+            </h5>
+            <p>Wenn du oder eine dir nahestehende Person dringend Hilfe benötigt, wende dich bitte umgehend an folgende Anlaufstelle:
+
+              telefonseelsorge.de | Telefon 0800 111 0 111</p>
+
+
+          </div>
+
           <div className="flex justify-between px-4 py-3 rounded-md  text-gray-600">
+
             <span>
               &copy; Power Mind Club <span id="year"></span>
             </span>
