@@ -14,6 +14,13 @@ module.exports = {
     //   }
     // },
     "gatsby-plugin-image", "gatsby-plugin-offline", "gatsby-plugin-react-helmet", "gatsby-plugin-sharp", "gatsby-plugin-layout", {
+      resolve: `gatsby-transformer-remark`, options: {
+        // Footnotes mode (default: true)
+        footnotes: true, // GitHub Flavored Markdown mode (default: true)
+        gfm: true, // Plugins configs
+        plugins: []
+      }
+    }, {
       resolve: `gatsby-plugin-google-gtag`, options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: ["G-FGYP3R34TT" // Google Analytics / GA
@@ -44,7 +51,7 @@ module.exports = {
       }
     }, {
       resolve: "gatsby-source-filesystem", options: {
-        name: "images", path: "./src/img/"
+        name: "images", path: `${__dirname}/src/img/`
       }, __key: "images"
     }]
 };

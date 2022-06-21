@@ -30,7 +30,7 @@ export default function WhyPMC() {
 
       </div>
       <Link to="/app" className="block w-full ">
-        <AnimatedArrowButton className="w-64">Lade die App
+        <AnimatedArrowButton className="w-48">Lade die App
         </AnimatedArrowButton>
       </Link>
     </RightImage>
