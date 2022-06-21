@@ -5,7 +5,7 @@ import kim from "../../img/team/kim.webp";
 import chenchen from "../../img/team/chenchen.webp";
 import teamcollab from "../../img/icons/undraw/undraw_team_collaboration_re_ow29.svg";
 import goal from "../../img/icons/undraw/undraw_spread_love_re_v3cl.svg";
-import { BsInstagram, BsLinkedin, FaArrowRight } from "react-icons/all";
+import { BsInstagram, BsLinkedin } from "react-icons/all";
 import { Helmet } from "react-helmet";
 
 function TimeLineStep(props) {
@@ -20,12 +20,12 @@ function TimeLineStep(props) {
         <h3 className="text-lg font-semibold text-apple dark:text-white">
           {props.title}
         </h3>
-        {/*<p className="mb-4 text-base font-normal text-cultured dark:text-onyx">*/}
-        {/*  Content*/}
-        {/*</p>*/}
-        <span className="inline-flex items-center py-2 px-4 text-sm font-medium text-onyx bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-onyx dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
-          Learn more <FaArrowRight className="ml-2 w-3 h-3" />
-        </span>
+        <p className="mb-4 text-base font-normal text-cultured dark:text-onyx">
+          {props.children}
+        </p>
+        {/*<span className="inline-flex items-center py-2 px-4 text-sm font-medium text-onyx bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-onyx dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">*/}
+        {/*  Learn more <FaArrowRight className="ml-2 w-3 h-3" />*/}
+        {/*</span>*/}
       </li>
     </>
   );
@@ -36,8 +36,9 @@ function TimeLine() {
     <>
       <ol className="relative border-l border-gray-200 dark:border-gray-700">
         <TimeLineStep date="Januar 2022" title="Idee entstanden" />
-        <TimeLineStep date="Februar 2022" title="WHU 3 Day Start-up" />
-        https://www.threedaystartup.de
+        <TimeLineStep date="Februar 2022" title="WHU 3 Day Start-up">
+        <a href="https://www.threedaystartup.de" className="flex">https://www.threedaystartup.de</a>
+        </TimeLineStep>
         <TimeLineStep date="Juni 2022" title="WHU Accelerator" />
         <TimeLineStep date="Juli 2022" title="GmbH Gründung" />
         <TimeLineStep date="August 2022" title="Launch MVP" />

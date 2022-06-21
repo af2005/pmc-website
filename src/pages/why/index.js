@@ -29,8 +29,8 @@ export default function WhyPMC() {
         </p>
 
       </div>
-      <Link to="why/learn-more" className="block w-full ">
-        <AnimatedArrowButton className="w-64">Starte Deinen Plan
+      <Link to="/app" className="block w-full ">
+        <AnimatedArrowButton className="w-64">Lade die App
         </AnimatedArrowButton>
       </Link>
     </RightImage>
@@ -68,7 +68,7 @@ export default function WhyPMC() {
 
     <RightImage image={rebecca} className="bg-ming">
       <h2 className="text-2xl text-apple font-bold md:text-4xl">
-        Treffe unseren PMC Coach
+        Treffe einen PMC Coach
       </h2>
       <p  className="mt-6 text-cultured">
         Rebecca Baur - Systemischer Coach
