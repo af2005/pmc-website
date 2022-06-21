@@ -39,7 +39,12 @@ export function RightImage(props) {
           <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
             <div className="space-y-6 md:7/12 lg:w-6/12">{props.children}</div>
             <div className="md:5/12 lg:w-6/12">
-              <img src={props.image} alt="" className="w-80 md:w-auto xl:w-80 m-auto" loading="lazy" />
+              <img
+                src={props.image}
+                alt=""
+                className="w-80 md:w-auto xl:w-80 m-auto"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>

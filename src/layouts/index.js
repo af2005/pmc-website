@@ -5,7 +5,8 @@ import Meta from "./meta";
 import { HubspotProvider } from "@aaronhayes/react-use-hubspot-form";
 
 export default function Layout({ children }) {
-  return (<>
+  return (
+    <>
       <Meta />
       <HubspotProvider>
         <div className="App">
@@ -14,5 +15,6 @@ export default function Layout({ children }) {
           <Footer />
         </div>
       </HubspotProvider>
-    </>);
+    </>
+  );
 }

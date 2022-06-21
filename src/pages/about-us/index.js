@@ -37,7 +37,9 @@ function TimeLine() {
       <ol className="relative border-l border-gray-200 dark:border-gray-700">
         <TimeLineStep date="Januar 2022" title="Idee entstanden" />
         <TimeLineStep date="Februar 2022" title="WHU 3 Day Start-up">
-        <a href="https://www.threedaystartup.de" className="flex">https://www.threedaystartup.de</a>
+          <a href="https://www.threedaystartup.de" className="flex">
+            https://www.threedaystartup.de
+          </a>
         </TimeLineStep>
         <TimeLineStep date="Juni 2022" title="WHU Accelerator" />
         <TimeLineStep date="Juli 2022" title="GmbH Gründung" />
@@ -178,34 +180,29 @@ export default function Team() {
               von unseren Gründer*innen
               <span className="font-bold"> Alexander Franke</span>,
               <span className="font-bold"> Chenchen Cao</span> und
-              <span className="font-bold"> Kim Kasch</span>.
-              Die Mission von Power Mind Club ist es,
-              Millenials und Gen Z eine Plattform zu bieten,
-              um Menschen zu befähigen,
-              achtsame Gewohnheiten zu entwickeln für gesündere
-              und glücklichere Beziehungen.
-
-
+              <span className="font-bold"> Kim Kasch</span>. Die Mission von
+              Power Mind Club ist es, Millenials und Gen Z eine Plattform zu
+              bieten, um Menschen zu befähigen, achtsame Gewohnheiten zu
+              entwickeln für gesündere und glücklichere Beziehungen.
             </p>
             <p className="text-gray-600 lg:w-8/12 lg:mx-auto mt-3">
               Angepasst auf Deine individuellen Bedürfnisse & nie allein.
-                     </p>
-
+            </p>
           </div>
           <Management />
         </div>
       </div>
       <div className="py-20 md:pb-20">
         <div className="container m-auto px-7 md:px-20 lg:px-50">
-
-          <img alt="our goal" src={goal} className="w-64 m-auto pb-5"/>
+          <img alt="our goal" src={goal} className="w-64 m-auto pb-5" />
           <h2 className="mb-4 text-center text-2xl text-onyx font-bold md:text-4xl pmc-h2">
             Unser Ziel
           </h2>
-          Eine Mental Well-being Plattform zu erschaffen, die sich an dich und deinen Fortschritt anpasst - mit echten Psycholog*innen und einer Community, die uns motiviert am Ball zu bleiben.
+          Eine Mental Well-being Plattform zu erschaffen, die sich an dich und
+          deinen Fortschritt anpasst - mit echten Psycholog*innen und einer
+          Community, die uns motiviert am Ball zu bleiben.
         </div>
       </div>
-
 
       <div className="py-20 md:pb-20 gradient-ming-to-onyx">
         <div className="container m-auto px-7 md:px-20 lg:px-50">

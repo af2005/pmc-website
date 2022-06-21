@@ -50,5 +50,5 @@ AnimatedArrowButton.propTypes = {
   children: PropTypes.node,
 };
 AnimatedArrowButton.defaultProps = {
-  color: "apple"
-}
+  color: "apple",
+};
