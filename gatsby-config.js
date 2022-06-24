@@ -29,15 +29,7 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
     "gatsby-plugin-layout",
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        // Footnotes mode (default: true)
-        footnotes: true, // GitHub Flavored Markdown mode (default: true)
-        gfm: true, // Plugins configs
-        plugins: [],
-      },
-    },
+
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {

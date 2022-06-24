@@ -18,7 +18,7 @@ function CallToAction() {
           <div className="justify-center text-center gap-6 md:text-left md:flex lg:items-center  lg:gap-16">
             <div className="order-last mb-6 space-y-6 md:mb-0 md:w-6/12 lg:w-6/12">
               <h1 className="text-4xl text-white font-bold md:text-4xl">
-                Was kannst Du an Deiner Beziehung verbessern?
+                Was kannst du an deiner Beziehung verbessern?
               </h1>
               <p className="text-lg text-white">
                 Führende PMC Coaches haben ein System entwickelt um eure
@@ -119,7 +119,7 @@ function Content() {
 
       <LeftImage image={app1} className="bg-white">
         <h2 className="text-2xl text-ming font-bold md:text-4xl">
-          Power Mind Club, Dein Personal Trainer für Liebe und Beziehung.
+          Power Mind Club, dein Personal Trainer für Liebe und Beziehung.
         </h2>
         <p className="mt-6 text-onyx">
           Power Mind Club ist die App für Beziehungscoaching und Wohlbefinden.

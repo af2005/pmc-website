@@ -36,6 +36,7 @@
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.4.0",
+    "react-image-gallery": "^1.2.8",
     "sass": "^1.52.3"
   },
   "devDependencies": {

@@ -19,7 +19,7 @@ function Newsletter() {
                 Bleibe informiert
               </h2>
               <p className="text-onyx text-center">
-                Abboniere unseren Newsletter
+                Abonniere unseren Newsletter
               </p>
             </div>
             <div id="newsletter-hubspot" className="w-full" />
