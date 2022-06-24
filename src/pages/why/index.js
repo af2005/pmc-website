@@ -19,7 +19,7 @@ export default function WhyPMC() {
 
       <RightImage image={appreciate} className={"bg-cultured"}>
         <h1 className="text-2xl pmc-h2 text-ming font-bold md:text-5xl">
-          Der beste Ort um Deine Beziehung zu verbessern.
+          Der beste Ort um deine Beziehung zu verbessern.
         </h1>
         <div className="space-y-4">
           <p className="text-gray-600">
@@ -41,7 +41,7 @@ export default function WhyPMC() {
         </h2>
         <p className="mt-6 text-onyx">
           Wir erstellen dir deinen Plan - angepasst auf dein persönliches Thema.
-          Du und dein Partner*in brauchen nur 7 Minuten pro Tag mit Wissen,
+          Du und dein Partner:in brauchen nur 7 Minuten pro Tag mit Wissen,
           Übungen & Selfcare Routinen.
         </p>
       </LeftImage>

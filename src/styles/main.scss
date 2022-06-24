@@ -28,6 +28,10 @@ a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+
+a:hover button{
+  text-decoration: none!important;
+}
 .no-underline {
   text-decoration: none !important;
 }

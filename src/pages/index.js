@@ -126,7 +126,7 @@ function Content() {
           Wir unterstützen unsere Nutzer:innen gesündere und glücklichere
           Beziehungen zu führen. Wir ermöglichen unseren Nutzer:innen an sich
           selbst und der Beziehung zu arbeiten. In einer Beziehung geht es um
-          ein zufriedenes ich,
+          ein zufriedenes Ich.
         </p>
         <p className="mt-4 text-onyx">
           {" "}

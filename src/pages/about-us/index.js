@@ -42,7 +42,6 @@ function TimeLine() {
           </a>
         </TimeLineStep>
         <TimeLineStep date="Juni 2022" title="WHU Accelerator" />
-        <TimeLineStep date="Juli 2022" title="GmbH Gründung" />
         <TimeLineStep date="August 2022" title="Launch MVP" />
       </ol>
     </>
@@ -79,14 +78,7 @@ function Management() {
             >
               <BsLinkedin className="w-7 h-7 hover-text-apple" />
             </a>
-            <a
-              rel="noreferrer"
-              href="https://www.instagram.com"
-              target="_blank"
-              aria-label="instagram"
-            >
-              <BsInstagram className="w-7 h-7 hover-text-apple" />
-            </a>
+
           </div>
         </div>
         <div className="space-y-4 text-center group">
@@ -115,14 +107,7 @@ function Management() {
             >
               <BsLinkedin className="w-7 h-7 hover-text-apple" />
             </a>
-            <a
-              rel="noreferrer"
-              href="https://www.instagram.com"
-              target="_blank"
-              aria-label="instagram"
-            >
-              <BsInstagram className="w-7 h-7 hover-text-apple" />
-            </a>
+
           </div>
         </div>
         <div className="space-y-4 text-center group">
@@ -176,8 +161,8 @@ export default function Team() {
               Die Power Minds
             </h1>
             <p className="text-gray-600 lg:w-8/12 lg:mx-auto">
-              Ins Leben gerufen wurde Power Mind Club im Juli 2022 in Hamburg
-              von unseren Gründer*innen
+              Ins Leben gerufen wurde Power Mind Club im Januar 2022 in Hamburg
+              von unseren Gründer:innen
               <span className="font-bold"> Alexander Franke</span>,
               <span className="font-bold"> Chenchen Cao</span> und
               <span className="font-bold"> Kim Kasch</span>. Die Mission von
@@ -199,7 +184,7 @@ export default function Team() {
             Unser Ziel
           </h2>
           Eine Mental Well-being Plattform zu erschaffen, die sich an dich und
-          deinen Fortschritt anpasst - mit echten Psycholog*innen und einer
+          deinen Fortschritt anpasst - mit echten Psycholog:innen und einer
           Community, die uns motiviert am Ball zu bleiben.
         </div>
       </div>
