@@ -41,7 +41,7 @@ export default function WhyPMC() {
         </h2>
         <p className="mt-6 text-onyx">
           Wir erstellen dir deinen Plan - angepasst auf dein persönliches Thema.
-          Du und dein Partner:in brauchen nur 7 Minuten pro Tag mit Wissen,
+          Du und dein:e Partner:in brauchen nur 7 Minuten pro Tag mit Wissen,
           Übungen & Selfcare Routinen.
         </p>
       </LeftImage>
@@ -71,13 +71,14 @@ export default function WhyPMC() {
           Treffe einen PMC Coach
         </h2>
         <p className="mt-6 text-cultured">Rebecca Baur - Systemischer Coach</p>
+        <p className="text-cultured">Expertin in
+          Beziehungskommunikation und Paar- / Einzelcoaching.</p>
         <p className="text-cultured">
           Unser Leben wird vorwiegend von einer Sache bestimmt, nämlich der Art
           und Weise, wie wir Verbindungen leben. Die Verbindung zu uns selbst,
           die Verbindung zu anderen Menschen und die Verbindung zur Umwelt bzw.
           Natur. Dabei ist die Beziehung zu uns selbst die wichtigste, denn sie
-          legt den Grundstein für das Leben im Außen. Expertin in
-          Beziehungskommunikation und Paar- / Einzelcoaching.
+          legt den Grundstein für das Leben im Außen.
         </p>
       </RightImage>
     </>

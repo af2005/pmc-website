@@ -62,15 +62,15 @@ function Features() {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h2 className="pmc-topline text-xs text-ming  mb-1">
-              Das sieht auch die Wissenschaft so
+              Es gibt nichts Wichtigeres als die Liebe.
             </h2>
             <h1 className="sm:text-3xl text-2xl title-font mb-4  pmc-h2">
-              Es gibt nichts Wichtigeres als die Liebe.
+              Das sieht auch die Wissenschaft so.
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base ">
               Wir glauben, dass es in unserer Verantwortung liegt, dafür zu
-              sorgen, dass alle Menschen Zugang zu Beziehungscoaching haben. Das
-              ist unsere App, und daran halten wir fest.
+              sorgen, dass alle Menschen Zugang zu Beziehungscoaching haben.
+              Hierzu wollen wir mit unserer App einen Beitrag leisten.
             </p>
           </div>
           <div className="flex flex-wrap">
@@ -123,8 +123,8 @@ function Content() {
         </h2>
         <p className="mt-6 text-onyx">
           Power Mind Club ist die App für Beziehungscoaching und Wohlbefinden.
-          Wir unterstützen unsere Nutzer:innen gesündere und glücklichere
-          Beziehungen zu führen. Wir ermöglichen unseren Nutzer:innen an sich
+          Wir unterstützen dich dabei gesündere und glücklichere
+          Beziehungen zu führen. Wir ermöglichen dir an dir
           selbst und der Beziehung zu arbeiten. In einer Beziehung geht es um
           ein zufriedenes Ich.
         </p>

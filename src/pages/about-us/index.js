@@ -166,12 +166,11 @@ export default function Team() {
               <span className="font-bold"> Alexander Franke</span>,
               <span className="font-bold"> Chenchen Cao</span> und
               <span className="font-bold"> Kim Kasch</span>. Die Mission von
-              Power Mind Club ist es, Millenials und Gen Z eine Plattform zu
-              bieten, um Menschen zu befähigen, achtsame Gewohnheiten zu
+              Power Mind Club ist es, Menschen zu befähigen, achtsame Gewohnheiten zu
               entwickeln für gesündere und glücklichere Beziehungen.
             </p>
             <p className="text-gray-600 lg:w-8/12 lg:mx-auto mt-3">
-              Angepasst auf Deine individuellen Bedürfnisse & nie allein.
+              Angepasst auf deine individuellen Bedürfnisse & nie allein.
             </p>
           </div>
           <Management />
