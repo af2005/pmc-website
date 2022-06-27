@@ -61,12 +61,12 @@ function Features() {
       <section className="text-onyx body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h2 className="pmc-topline text-xs text-ming  mb-1">
+            <h1 className="text-2xl text-ming font-bold md:text-4xl mb-4">
               Es gibt nichts Wichtigeres als die Liebe.
-            </h2>
-            <h1 className="sm:text-3xl text-2xl title-font mb-4  pmc-h2">
-              Das sieht auch die Wissenschaft so.
             </h1>
+            <h2 className="text-xl mb-4 pmc-h2">
+              Das sieht auch die Wissenschaft so.
+            </h2>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base ">
               Wir glauben, dass es in unserer Verantwortung liegt, dafür zu
               sorgen, dass alle Menschen Zugang zu Beziehungscoaching haben.
